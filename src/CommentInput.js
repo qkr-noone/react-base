@@ -18,7 +18,7 @@ class Clock extends Component {
   }
 
   componentWillUnmount () {
-    clearImmediate(this.timer)
+    clearInterval(this.timer)
   }
 
   render () {
