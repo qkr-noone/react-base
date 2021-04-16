@@ -7,6 +7,9 @@ import Form from './Form';
 import TodoList from './TodoList';
 import Noodle from './Noodle';
 import NoodleHook from './NoodleHook';
+import Seventeen from './reactSkill/HOCprops';
+import Sixteen from './reactSkill/HOCproxy';
+import TwentyChild from './reactSkill/reactMemo';
 
 class Index extends Component {
   constructor(props) {
@@ -87,7 +90,10 @@ class Index extends Component {
         <TodoList />
         <Noodle></Noodle>
         <NoodleHook></NoodleHook>
-        <p>1231212312</p>
+        <hr/>
+        <Seventeen />
+        <Sixteen />
+        <TwentyChild />
       </>
     );
   }
